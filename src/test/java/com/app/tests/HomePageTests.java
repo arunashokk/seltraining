@@ -15,12 +15,12 @@ public class HomePageTests {
 		bp = new BasePage();
 	}
 	
-	@Test
+	@Test(groups = {"Sanity"})
 	public void verifyLogo(){
 		Assert.assertTrue(homePage.getLogo().isDisplayed());
 	}
 	
-	@Test
+	@Test(groups = {"Sanity"})
 	public void verifyNavTitles(){
 		homePage.getWomen();
 		System.out.println(homePage.getWomen().getText());
@@ -33,7 +33,7 @@ public class HomePageTests {
 		Assert.assertTrue(homePage.getTShirts().getText().equals("T-SHIRTS"), "Failed: T-Shirts page is not displayed");
 	}
 	
-	@Test
+	@Test(groups = {"Sanity"})
 	public void verifyMenuNavigation(){
 		homePage.clickWomen();
 		System.out.println(homePage.getHeader().getText());
@@ -46,7 +46,7 @@ public class HomePageTests {
 		Assert.assertTrue(homePage.getHeader().getText().trim().equalsIgnoreCase("T-Shirts"), "Failed: T-shirts page is not displayed");
 		}
 
-	@Test
+	@Test(groups = {"Sanity"})
 	public void verifyNewsletterInputAlert(){
 		Assert.assertTrue(homePage.getalert().getText().equalsIgnoreCase("Newsletter : You have successfully subscribed to this newsletter."), "Failed: Email already exists");
 	}
