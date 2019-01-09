@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17543" started-at="2019-01-08T06:25:44Z" finished-at="2019-01-08T06:26:02Z">
+  <suite name="Default suite" duration-ms="20399" started-at="2019-01-09T07:14:57Z" finished-at="2019-01-09T07:15:17Z">
     <groups>
       <group name="Sanity">
         <method signature="HomePageTests.verifyLogo()[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="verifyLogo" class="com.app.tests.HomePageTests"/>
@@ -11,13 +11,13 @@
         <method signature="HomePageTests.verifyNewsletterInputAlert()[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="verifyNewsletterInputAlert" class="com.app.tests.HomePageTests"/>
       </group> <!-- Sanity -->
     </groups>
-    <test name="Default test" duration-ms="17543" started-at="2019-01-08T06:25:44Z" finished-at="2019-01-08T06:26:02Z">
+    <test name="Default test" duration-ms="20399" started-at="2019-01-09T07:14:57Z" finished-at="2019-01-09T07:15:17Z">
       <class name="com.app.tests.HomePageTests">
-        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="verifyLogo" duration-ms="47" started-at="2019-01-08T06:25:44Z" finished-at="2019-01-08T06:25:44Z">
+        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="verifyLogo" duration-ms="60" started-at="2019-01-09T07:14:57Z" finished-at="2019-01-09T07:14:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-01-08T06:25:44Z" finished-at="2019-01-08T06:25:44Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-01-09T07:14:57Z" finished-at="2019-01-09T07:14:57Z">
           <params>
             <param index="0">
               <value>
@@ -28,11 +28,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="verifyMenuNavigation()[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="verifyMenuNavigation" duration-ms="12183" started-at="2019-01-08T06:25:44Z" finished-at="2019-01-08T06:25:56Z">
+        <test-method status="PASS" signature="verifyMenuNavigation()[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="verifyMenuNavigation" duration-ms="13086" started-at="2019-01-09T07:14:57Z" finished-at="2019-01-09T07:15:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMenuNavigation -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-01-08T06:25:56Z" finished-at="2019-01-08T06:25:56Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-01-09T07:15:10Z" finished-at="2019-01-09T07:15:10Z">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="verifyNavTitles()[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="verifyNavTitles" duration-ms="163" started-at="2019-01-08T06:25:56Z" finished-at="2019-01-08T06:25:56Z">
+        <test-method status="FAIL" signature="verifyNavTitles()[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="verifyNavTitles" duration-ms="145" started-at="2019-01-09T07:15:10Z" finished-at="2019-01-09T07:15:10Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failed: T-Shirts page is not displayed expected [false] but found [true]]]>
@@ -85,7 +85,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavTitles -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="afterMethod" is-config="true" duration-ms="784" started-at="2019-01-08T06:25:56Z" finished-at="2019-01-08T06:25:57Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="afterMethod" is-config="true" duration-ms="779" started-at="2019-01-09T07:15:10Z" finished-at="2019-01-09T07:15:11Z">
           <params>
             <param index="0">
               <value>
@@ -96,11 +96,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="verifyNewsletterInputAlert()[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="verifyNewsletterInputAlert" duration-ms="4337" started-at="2019-01-08T06:25:57Z" finished-at="2019-01-08T06:26:02Z">
+        <test-method status="PASS" signature="verifyNewsletterInputAlert()[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="verifyNewsletterInputAlert" duration-ms="6292" started-at="2019-01-09T07:15:11Z" finished-at="2019-01-09T07:15:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewsletterInputAlert -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-08T06:26:02Z" finished-at="2019-01-08T06:26:02Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.app.tests.HomePageTests@6440112d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-09T07:15:17Z" finished-at="2019-01-09T07:15:17Z">
           <params>
             <param index="0">
               <value>
