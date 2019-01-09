@@ -1,0 +1,7 @@
+com/app/pages/DressesPageObjects.class
+com/app/pages/BasePage.class
+com/app/pages/AmazonBasePage.class
+com/app/pages/HomePageObjects.class
+com/app/pages/AmazonTodaysDealsObjects.class
+com/app/pages/CartPageObjects.class
+com/app/pages/AmazonHomePageObjects.class

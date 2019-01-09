@@ -1,7 +1,10 @@
 package com.app.tests;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.Assert;
+import org.testng.ITestResult;
+
 import com.app.pages.BasePage;
 import com.app.pages.HomePageObjects;
 
@@ -30,7 +33,7 @@ public class HomePageTests {
 		Assert.assertTrue(homePage.getDresses().getText().equals("DRESSES"), "Failed: DRESSES page is not displayed");
 		homePage.getTShirts();
 		System.out.println(homePage.getTShirts().getText());
-		Assert.assertTrue(homePage.getTShirts().getText().equals("T-SHIRTS"), "Failed: T-Shirts page is not displayed");
+		Assert.assertFalse(homePage.getTShirts().getText().equals("T-SHIRTS"), "Failed: T-Shirts page is not displayed");
 	}
 	
 	@Test(groups = {"Sanity"})
@@ -51,6 +54,12 @@ public class HomePageTests {
 		Assert.assertTrue(homePage.getalert().getText().equalsIgnoreCase("Newsletter : You have successfully subscribed to this newsletter."), "Failed: Email already exists");
 	}
 	
+	@AfterMethod
+	public void afterMethod(ITestResult result){
+		if(ITestResult.FAILURE == result.getStatus()){
+			bp.captureScreenshot(result.getName());
+		}
+	}
 	
 	
 }
