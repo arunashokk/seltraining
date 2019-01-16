@@ -17,7 +17,8 @@ package com.app.pages;
 			static WebDriver driver; //WebDriver is an interface
 			public String browser = "chrome"; //inplace of chrome we can use any browser we want to use
 			
-			//Constructor to launch browser and enter URL
+			//Constructor to launch browser and enter URL:
+			
 			
 			public AmazonBasePage(){
 				if(driver == null){
